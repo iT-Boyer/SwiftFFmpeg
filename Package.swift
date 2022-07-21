@@ -45,42 +45,31 @@ let package = Package(
     ),
     .binaryTarget(
       name: "libavcodec",
-      url: "https://github.com/sunlubo/SwiftFFmpeg/blob/master/xcframework/libavcodec.zip?raw=true",
-      checksum: "fd7134a138765bc9c80cc991e032a0229512c5bf0a18c151a9dcec4afa4fad0b"
+      path: "xcframework/libavcodec.zip"
     ),
     .binaryTarget(
       name: "libavdevice",
-      url:
-        "https://github.com/sunlubo/SwiftFFmpeg/blob/master/xcframework/libavdevice.zip?raw=true",
-      checksum: "91787692e329cdf60a80d96a42022bc9bd94b42e5c0ba79537313132886e9091"
+      path: "xcframework/libavdevice.zip"
     ),
     .binaryTarget(
       name: "libavfilter",
-      url:
-        "https://github.com/sunlubo/SwiftFFmpeg/blob/master/xcframework/libavfilter.zip?raw=true",
-      checksum: "8f87a588508ca40990905e0a6ce904ddc850ab2bc1069802f01e78a87fda8867"
+      path: "xcframework/libavfilter.zip"
     ),
     .binaryTarget(
       name: "libavformat",
-      url:
-        "https://github.com/sunlubo/SwiftFFmpeg/blob/master/xcframework/libavformat.zip?raw=true",
-      checksum: "d22e1ebb8c4f1ffc4975c9f3effabea6cde30ebd74dcd8fd1f55fca33d25c0b6"
+      path: "xcframework/libavformat.zip"
     ),
     .binaryTarget(
       name: "libavutil",
-      url: "https://github.com/sunlubo/SwiftFFmpeg/blob/master/xcframework/libavutil.zip?raw=true",
-      checksum: "46e9c2d1e78272ae349081c8a3f49a357224ef789a9fd954e4e6d3e662eeffd1"
+      path: "xcframework/libavutil.zip"
     ),
     .binaryTarget(
       name: "libswresample",
-      url:
-        "https://github.com/sunlubo/SwiftFFmpeg/blob/master/xcframework/libswresample.zip?raw=true",
-      checksum: "b22f6e1754766dc9691755a9c17a800f63eb7299cba7649091bb26ad982b0c8c"
+      path: "xcframework/libswresample.zip"
     ),
     .binaryTarget(
       name: "libswscale",
-      url: "https://github.com/sunlubo/SwiftFFmpeg/blob/master/xcframework/libswscale.zip?raw=true",
-      checksum: "a6b9201886e8aab5022b557cf0da2d8c5b1f085355d63f15665c4f48e9667a7b"
+      path: "xcframework/libswscale.zip"
     ),
     .target(
       name: "SwiftFFmpegExamples",
