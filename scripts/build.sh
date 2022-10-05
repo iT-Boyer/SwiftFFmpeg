@@ -34,7 +34,7 @@ make -j8 install || exit 1
 cd ..
 
 for LIB in $FFMPEG_LIBS; do
-  ./build_framework.sh $PREFIX $LIB $FFMPEG_VERSION || exit 1
+  ./build_framework_arm.sh $PREFIX $LIB $FFMPEG_VERSION || exit 1
 done
 
 echo "The compilation of FFmpeg is completed."
